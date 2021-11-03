@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Align Self</title>
+    <style>
+        body{
+            background-color: white;
+        }
+
+        .container{
+            border: 1px solid black;
+            max-width: 350px;
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .align-container{
+            align-items: center;
+        }
+
+        .item{
+            background-color: coral;
+            font-size: 24px;
+            text-align: center;
+            margin:5px;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .flex-start{
+            align-self: flex-start;
+        }
+
+        .flex-end{
+            align-self: flex-end;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+    </style>
+</head>
+<body>
+    <section class="container align-container">
+        <div class="item auto">AAAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">feiajf fijaeoifjae fjofjaeofj fjaoifjeo</div>
+        <div class="item auto">item 4</div>
+    </section>
+
+    <section class="container align-container">
+        <div class="item stretch">AAAA</div>
+        <div class="item center">123</div>
+        <div class="item flex-start">feiajf fijaeoifjae fjofjaeofj fjaoifjeo</div>
+        <div class="item flex-end">item 4</div>
+        <div class="item baseline">item 4</div>
+    </section>
+
+</body>
+</html>
