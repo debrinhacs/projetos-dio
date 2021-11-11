@@ -118,6 +118,14 @@ header nav .botao{
     margin-top:5px;
 }
 
+footer{
+    margin-top:5px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: start;
+    align-content:stretch;
+}
+
 
 
 
