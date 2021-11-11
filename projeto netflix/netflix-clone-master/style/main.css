@@ -43,14 +43,18 @@ header nav a:hover{
     color:#fff;
 }
 
+header nav .botao{
+    padding:5px;
+    margin: 0%;
+}
+
 /*filme principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/patrulha-canina.jpg');
     
-    height:400px;
+    height: 600px;
     background-size:cover;
- 
 
     display: flex;
     flex-direction: column;
@@ -66,7 +70,7 @@ header nav a:hover{
 
 
 .filme-principal .titulo{
-    margin-top: 15%;
+    margin-top: 0%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
