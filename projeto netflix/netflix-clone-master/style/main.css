@@ -26,11 +26,30 @@ header .container{
 }
 
 header .logo{
-    margin-left: 5px;
+    margin-left: 0px;
+    padding: 0px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size:40px;
 }
+.titulo_logo:hover { 
+    transform: translate3d(6px, 5px, 5px);
+}
+
+.titulo_logo .icone:hover {   
+    transform: scale3d(1.5, 1.5, 0.2);
+  }
+
+.logo .icone{
+    max-height: 40px;
+    max-width: 40px;
+    align-self: center;
+    border-radius: 100%;
+    opacity: 80%;
+    filter:sepia(20%)    
+}
+
+
 
 header nav a{
     text-decoration:none;
